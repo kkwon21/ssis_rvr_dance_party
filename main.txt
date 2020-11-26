@@ -7,7 +7,7 @@ async function startProgram() {
 	await stopRoll()
 	await roll(180,60,2.5)
 	await stopRoll()
-	await roll(270,60,2.0)
+	await roll(270,60,2.5)
 	await stopRoll()
 	
 	await roll(0,1,0.5) //This realigns the robot at the end of the movement.
