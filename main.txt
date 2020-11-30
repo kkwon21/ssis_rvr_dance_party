@@ -14,3 +14,4 @@ Mimi_square() {
 }
 
 //This is a good start. Pull this modification of your code into your project.
+//Your code is really clear and uniform - Esther
