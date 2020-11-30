@@ -13,3 +13,5 @@ async function startProgram() {
 	await roll(0,1,0.5) //This realigns the robot at the end of the movement.
 	
 }
+
+//Change speed so all the same? And easier to sync with others?
