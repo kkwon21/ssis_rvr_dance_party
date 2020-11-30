@@ -1,4 +1,4 @@
-async function startProgram() {
+robert_square() {
 	// This is our sample code for making the RVR drive in a square.
 
 	await roll(0,50,1.8) //Drive for two seconds at a speed of 50 at a heading of 0 degrees.
