@@ -14,4 +14,13 @@ async function startProgram() {
 	
 }
 
+async function zigzag() {
+	setSpeed (150)
+	await spin(180, 2)
+	await stopRoll()
+	setSpeed (150)
+	await spin(-180,2)
+	await stopRoll()
+}
+
 //Change speed so all the same? And easier to sync with others?
