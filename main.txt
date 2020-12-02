@@ -23,4 +23,14 @@ async function zigzag() {
 	await stopRoll()
 }
 
+async function halfCircleCWThenCCW() {
+	setMainLed({ r: 255, g: 0, b: 0 })
+	setSpeed (120)
+	await spin(180, 2)
+	await stopRoll()
+	setSpeed (120)
+	await spin(-180,2)
+	await stopRoll()
+}
+
 //Change speed so all the same? And easier to sync with others?
