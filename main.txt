@@ -30,3 +30,19 @@ Horace_square() {
 	
 	await roll(0,1,0.5) //This realigns the robot at the end of the movement.
  }
+ 
+ //code for star - Esther
+ async function startProgram() {
+	await roll(18,50,3.0)
+	await stopRoll()
+	await roll(162,50,3.6)
+	await stopRoll()
+	await roll(306,50,3.5)
+	await stopRoll()
+	await roll(90,50,3.6)
+	await stopRoll()
+	await roll(234,50,3.6)
+	await stopRoll()
+	
+	await roll(0,1,0.1) 
+}
